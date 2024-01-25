@@ -26,3 +26,9 @@ d
 4src/main/java/org/shop/decorator/impl/MilkyFoam.java,3/7/3726c4a9a037884eb3645e012eee52c86a5ac6a5
 h
 8src/main/java/org/shop/decorator/impl/WhippingCream.java,a/f/afbe88b48ef1f81708551e5ae34bff2bf33b0f3c
+e
+5src/main/java/org/shop/strategy/DiscountStrategy.java,2/5/257ffb5cbc6299d0e3225c427a9757a1ab4a2d5b
+l
+<src/main/java/org/shop/strategy/impl/NoDiscountStrategy.java,2/5/255a598867eb8fb944815ecc50f242c575c76a46
+s
+Csrc/main/java/org/shop/strategy/impl/HappyHourDiscountStrategy.java,a/e/ae42880b9bb4aa61989ef3dc60df296c551a4cee

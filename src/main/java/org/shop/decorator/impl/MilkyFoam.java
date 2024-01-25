@@ -15,6 +15,6 @@ public class MilkyFoam extends CoffeeDecoratorImpl{
 
     @Override
     public double getCost() {
-        return super.getCost() + 0.5;
+        return super.getCost() + 0.5; // Additional cost for milky foam
     }
 }

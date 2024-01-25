@@ -6,6 +6,6 @@ public class HappyHourDiscountStrategyImpl implements DiscountStrategy {
 
     @Override
     public double applyDiscount(double cost) {
-        return cost * 0.8;
+        return cost * 0.5;
     }
 }

@@ -10,7 +10,7 @@ public class CoffeeReadyNotification {
         customers.add(customer);
     }
 
-    public void unsubscribe(Customer customer) { //dontGetNotification
+    public void unsubscribe(Customer customer) { //dontGetNotificationAnymore
         customers.remove(customer);
     }
 

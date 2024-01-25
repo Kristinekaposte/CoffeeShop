@@ -1,9 +1,10 @@
 package org.shop.decorator.impl;
 
 import org.shop.decorator.Coffee;
+import org.shop.strategy.DiscountStrategy;
 
 public abstract class CoffeeDecoratorImpl implements Coffee{
-    protected Coffee decoratedCoffee;
+    private Coffee decoratedCoffee;
 
     public CoffeeDecoratorImpl(Coffee decoratedCoffee) {
         this.decoratedCoffee = decoratedCoffee;

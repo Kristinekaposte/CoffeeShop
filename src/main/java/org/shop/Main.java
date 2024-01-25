@@ -10,9 +10,12 @@ import org.shop.observer.CoffeeReadyNotification;
 import org.shop.observer.Customer;
 import org.shop.observer.impl.CoffeeCustomerImpl;
 import org.shop.singleton.CoffeeShop;
+import org.shop.strategy.DiscountStrategy;
+import org.shop.strategy.impl.HappyHourDiscountStrategyImpl;
 
 public class Main {
     public static void main(String[] args) {
+
         CoffeeShop coffeeShop = CoffeeShop.getInstance(); // Singleton
 
         Coffee coffee = new BasicCoffeeImpl(); //decorator, basic coffee costs 2.00
@@ -24,7 +27,8 @@ public class Main {
          * described as "Basic Coffee, Milky Foam" with the cost being the sum of the basic coffee and the milky foam.
          */
         coffee = new MilkyFoam(coffee); // costs +0.5
-        coffee = new WhippingCream(coffee); // costs + 0.7
+        coffee = new WhippingCream(coffee); // costs + 1.0
+
 
         CoffeeReadyNotification notification = new CoffeeReadyNotification();
         Customer customer1 = new CoffeeCustomerImpl();

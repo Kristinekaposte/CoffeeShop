@@ -16,3 +16,13 @@ Q.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 
 Q.idea/sonarlint/securityhotspotstore/e/6/e654b2c03b01582d3dbf901586151b636d11f743,2/c/2c1c673939e40b1981b142a6877b655a13c301f4
+\
+,src/main/java/org/shop/decorator/Coffee.java,6/f/6f5e15a29bf3a0b6d0d592e3d6339d2727660261
+j
+:src/main/java/org/shop/decorator/impl/BasicCoffeeImpl.java,0/6/0650a601aefa48812d7dfd429be43ee26d550766
+n
+>src/main/java/org/shop/decorator/impl/CoffeeDecoratorImpl.java,e/7/e733efa1b363b4f6cb1383fff8bda04980776c45
+d
+4src/main/java/org/shop/decorator/impl/MilkyFoam.java,3/7/3726c4a9a037884eb3645e012eee52c86a5ac6a5
+h
+8src/main/java/org/shop/decorator/impl/WhippingCream.java,a/f/afbe88b48ef1f81708551e5ae34bff2bf33b0f3c

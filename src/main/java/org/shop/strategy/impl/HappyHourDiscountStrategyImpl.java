@@ -2,10 +2,10 @@ package org.shop.strategy.impl;
 
 import org.shop.strategy.DiscountStrategy;
 
-public class NoDiscountStrategy implements DiscountStrategy {
+public class HappyHourDiscountStrategyImpl implements DiscountStrategy {
 
     @Override
     public double applyDiscount(double cost) {
-        return cost;
+        return cost * 0.8;
     }
 }

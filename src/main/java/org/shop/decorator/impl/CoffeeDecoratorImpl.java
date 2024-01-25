@@ -1,7 +1,6 @@
 package org.shop.decorator.impl;
 
 import org.shop.decorator.Coffee;
-import org.shop.strategy.DiscountStrategy;
 
 public abstract class CoffeeDecoratorImpl implements Coffee{
     private Coffee decoratedCoffee;

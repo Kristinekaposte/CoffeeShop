@@ -32,3 +32,15 @@ l
 <src/main/java/org/shop/strategy/impl/NoDiscountStrategy.java,2/5/255a598867eb8fb944815ecc50f242c575c76a46
 s
 Csrc/main/java/org/shop/strategy/impl/HappyHourDiscountStrategy.java,a/e/ae42880b9bb4aa61989ef3dc60df296c551a4cee
+]
+-src/main/java/org/shop/observer/Customer.java,3/3/33fc54f0e595343ce88403559ab5475fc2e4ca98
+l
+<src/main/java/org/shop/observer/CoffeeReadyNotification.java,2/7/27069d0d0f9e9764685b9026be8e5a81947bfe84
+l
+<src/main/java/org/shop/observer/impl/CoffeeCustomerImpl.java,3/e/3e245455f392c543acf62408d7097c299ab2514d
+^
+.src/main/java/org/shop/strategy/impl/Impl.java,5/f/5fa734b23885d9e88451d336bf31641e2ed3072d
+w
+Gsrc/main/java/org/shop/strategy/impl/HappyHourDiscountStrategyImpl.java,f/c/fcacdbe09af049343ebda74bdd43d810f3a83958
+p
+@src/main/java/org/shop/strategy/impl/NoDiscountStrategyImpl.java,2/c/2cdcdea6ab2b0770b93796d0dee20beb065b7b5f

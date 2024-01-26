@@ -6,11 +6,11 @@ import java.util.List;
 public class CoffeeReadyNotification {
     private List<Customer> customers = new ArrayList<>();
 
-    public void subscribe(Customer customer) { //getNotification
+    public void subscribe(Customer customer) {
         customers.add(customer);
     }
 
-    public void unsubscribe(Customer customer) { //dontGetNotificationAnymore
+    public void unsubscribe(Customer customer) {
         customers.remove(customer);
     }
 

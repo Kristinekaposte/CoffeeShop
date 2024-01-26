@@ -17,7 +17,7 @@ public class OrderCoffeeCommandImpl implements Command {
     }
 
     @Override
-    public void execute() {
+    public void order() {
         System.out.println("Coffee ordered: " + coffee.getDescription() + ". Total cost: $" + coffee.getCost());
         servingStrategy.serve();
     }

@@ -6,7 +6,8 @@ import org.shop.decorator.Coffee;
 import org.shop.decorator.impl.BasicCoffeeImpl;
 import org.shop.decorator.impl.MilkyFoam;
 import org.shop.decorator.impl.WhippingCream;
-import org.shop.observer.CoffeeReadyNotification;
+import org.shop.observer.NotificationService;
+import org.shop.observer.impl.CoffeeReadyNotificationImpl;
 import org.shop.observer.Customer;
 import org.shop.observer.impl.CoffeeCustomerImpl;
 import org.shop.singleton.CoffeeShop;
@@ -22,7 +23,7 @@ public class Main {
         coffee = new MilkyFoam(coffee); //costs +0.5
         coffee = new WhippingCream(coffee); // costs + 1.0
 
-        CoffeeReadyNotification notification = new CoffeeReadyNotification();
+        NotificationService notification = new CoffeeReadyNotificationImpl();
         Customer customer1 = new CoffeeCustomerImpl();
         notification.subscribe(customer1);
         

@@ -1,9 +1,12 @@
-package org.shop.observer;
+package org.shop.observer.impl;
+
+import org.shop.observer.Customer;
+import org.shop.observer.NotificationService;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class CoffeeReadyNotification {
+public class CoffeeReadyNotificationImpl implements NotificationService {
     private List<Customer> customers = new ArrayList<>();
 
     public void subscribe(Customer customer) {

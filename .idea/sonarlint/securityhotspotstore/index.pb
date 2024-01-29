@@ -44,3 +44,9 @@ s
 Csrc/main/java/org/shop/strategy/impl/InCafeServingStrategyimpl.java,9/4/946c1ae3de59831423546f9d99239ba81de458de
 s
 Csrc/main/java/org/shop/strategy/impl/InCafeServingStrategyImpl.java,a/d/ad398e452b6f1b2c6513e44d34679eef388d2af9
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+h
+8src/main/java/org/shop/observer/NotificationService.java,1/7/175ef536f7f920503fb71fe7da0c3a823dd892ee
+u
+Esrc/main/java/org/shop/observer/impl/CoffeeReadyNotificationImpl.java,5/f/5f37f7681d20aef79ed357a9eb439c9fddf2a598

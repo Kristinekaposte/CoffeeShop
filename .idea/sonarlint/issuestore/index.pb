@@ -29,8 +29,6 @@ h
 ]
 -src/main/java/org/shop/observer/Customer.java,3/3/33fc54f0e595343ce88403559ab5475fc2e4ca98
 l
-<src/main/java/org/shop/observer/CoffeeReadyNotification.java,2/7/27069d0d0f9e9764685b9026be8e5a81947bfe84
-l
 <src/main/java/org/shop/observer/impl/CoffeeCustomerImpl.java,3/e/3e245455f392c543acf62408d7097c299ab2514d
 [
 +src/main/java/org/shop/command/Command.java,4/6/462395883f7a531fec1de240b1f61b477f155922
